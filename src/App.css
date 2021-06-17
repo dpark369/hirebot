@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Destruido Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Destruido Regular'), url('Destruido-OVZDd.woff') format('woff');
+}
+
+h1 {
+	font-family: 'Destruido Regular';
+	color: #0ccac4;
+}
