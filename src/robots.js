@@ -41,4 +41,28 @@ export const robots = [
 		username: 'nf2',
 		email: 'nf2@rmail.com',
 	},
+	{
+		id: 7,
+		name: 'Jacob Cremin',
+		username: 'JaC',
+		email: 'jac@rmail.com',
+	},
+	{
+		id: 8,
+		name: 'Mathew Murray',
+		username: 'MM',
+		email: 'mm22@rmail.com',
+	},
+	{
+		id: 9,
+		name: 'Diana Hansen',
+		username: 'Dianaaa',
+		email: 'dddhhh@rmail.com',
+	},
+	{
+		id: 10,
+		name: 'Nelson Hara Sr.',
+		username: 'NHS',
+		email: 'NHS66@rmail.com',
+	},
 ];
