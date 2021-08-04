@@ -8,4 +8,12 @@
 h1 {
 	font-family: 'Destruido Regular';
 	color: #0ccac4;
+	font-size: 4rem;
+	margin: 0 0 2rem 0;
+}
+
+@media screen (max-width: 500px) {
+	h1 {
+		font-size: 2rem;
+	}
 }
