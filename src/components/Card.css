@@ -32,7 +32,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-	background-color: rgba(10, 10, 230, 0.1);
+	background-color: rgba(40, 50, 230, 0.1);
 	color: black;
 }
 
