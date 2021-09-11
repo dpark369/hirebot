@@ -39,6 +39,7 @@ class App extends Component {
 			return <h1 className=''>Loading</h1>;
 		} else {
 			return (
+				// use the particle json to style when i deploy
 				<div className='tc app'>
 					<Particles
 						id='tsparticles'

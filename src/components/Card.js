@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Card.css';
 
 function Card(props) {
 	return (
-		<div className='flip-card tc dib br3 ma2 grow bw2 '>
+		<div className='flip-card tc dib br3 ma2 grow bw2'>
 			<div className='flip-card-inner'>
 				<div className='flip-card-front'>
 					<img
