@@ -1,10 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import './Card.css';
 
 function Card(props) {
+	const [isActive, setActive] = useState(false);
+	const handleToggle = () => {
+		setActive(!isActive);
+	};
 	return (
-		<div className='flip-card tc dib br3 ma2 grow bw2'>
-			<div className='flip-card-inner'>
+		<div className='flip-card tc dib br3 ma2 grow bw2' onClick={handleToggle}>
+			<div className={`flip-card-inner ${isActive ? 'clicked' : null}`}>
 				<div className='flip-card-front'>
 					<img
 						src={`https://robohash.org/${props.id}?size=300x300`}

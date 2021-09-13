@@ -16,7 +16,7 @@
 	display: flex;
 }
 
-.flip-card:hover .flip-card-inner {
+.clicked {
 	transform: rotateY(180deg);
 }
 
